@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 
 <html lang="en">
+	<head>
+	<!-- table.html -->
+		<meta charset="utf-8" />
+		<title>table.html</title>
+		<style>
+			td, th {
+				text-align: center;
+				border: 1px solid #000;
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption>Class Schedule</caption>
 
-<head>
+			<thead>
+				<tr>
+					<th>Class</th>
+					<th>Sunday</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+					<th>Saturday</th>
+				</tr>
+			</thead>
 
-<!--
-table.html
--->
+			<tbody>
+				<tr>
+					<th>WDF</th>
+					<td>- -</td>
+					<td>09:15-17:00</td>
+					<td>- -</td>
+					<td>09:15-17:00</td>
+					<td>- -</td>
+					<td>09:15-17:00(bi)</td>
+					<td>- -</td>
+				</tr>
+				<tr>
+					<th>DWS</th>
+					<td>- -</td>
+					<td>- -</td>
+					<td>13:15-21:00</td>
+					<td>- -</td>
+					<td>13:15-21:00</td>
+					<td>- -</td>
+					<td>- -</td>
+				</tr>
+			</tbody>
 
-	<meta charset="utf-8" />
-	<title>table.html</title>
+			<tfoot>
+				<tr>
+					<td>- -</td>
+					<td>No Classes</td>
+					<td colspan="5">- -</td>
+					<td>No Classes</td>
+				</tr>
+			</tfoot>
 
-	<style>
 
-		td, th {
-			text-align: center;
-			border: 1px solid #000;
-			margin: 0;
-			padding: 0;
-		}
-
-		colgroup {
-			background-color: #ccc;
-		}
-
-	</style>
-
-</head>
-
-<body>
-
-	<table>
-		<caption>
-
-		<thead><colgroup><tr><th>Class</th><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr></colgroup></thead>
-
-		<tfoot><td></td><td>No Classes</td><td></td><td></td><td></td><td></td><td></td><td>No Classes</td></tfoot>
-
-		<tbody>
-
-			<tr><th>WDF</th><td>- -</td><td>09:15-17:00</td><td>- -</td><td>09:15-17:00</td><td>- -</td><td>09:15-17:00(bi)</td><td>- -</td></tr>
-
-			<tr><th>DWS</th><td>- -</td><td>- -</td><td>13:15-21:00</td><td>- -</td><td>13:15-21:00</td><td>- -</td><td>- -</td></tr>
-
-		</tbody>
-
-	</table>
-
-</body>
-
+		</table>
+	</body>
 </html>
