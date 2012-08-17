@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<!--
+html5_form.html
+-->
+
+	<meta charset="utf-8" />
+	<title>html5_form.html</title>
+
+	<style>
+
+		body {
+			margin: 0 auto;
+			width: 960px;
+		}
+
+		form {
+			width: 400px;
+			margin: 0 auto;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<form>
+
+		<h3>First Name</h3>
+		<input required="required" placeholder="John" autofocus="autofocus" type="text" />
+
+		<h3>Last Name</h3>
+		<input required="required" placeholder="Doe" type="text" />
+
+		<h3>Email</h3>
+		<input placeholder="jdoe@example.com" type="email" />
+
+		<h3>Homepage URL</h3>
+		<input placeholder="http://jdoe.com" type="url" />
+
+		<h3>Phone</h3>
+		<input size="10" type="tel" />
+
+		<h3>Search Criteria</h3>
+		<input type="search" />
+
+		<h3>Favorite Color</h3>
+		<input type="color" />
+
+		<h3>Favorite 2-digit Number</h3>
+		<input type="range" name="favnum" />
+
+		<h3>Age</h3>
+		<input type="number" min="18" max="125" />
+
+		<h3>Date of Birth</h3>
+		<input required="required" type="date" name="dob" />
+
+		<h3>Reservation Time</h3>
+		<input type="time" name="time" />
+
+		<h3>Title</h3>
+		<input type="text" list="listdata" />
+
+			<datalist id="listdata">
+
+				<option label="Mr" value="Mister">
+
+				<option label="Ms" value="Miss">
+
+				<option label="Mrs" value="Misses">
+
+				<option label="Dr" value="Doctor">
+
+				<option label="Sir" value="Sir">
+
+			</datalist>
+
+		<input type="submit" />
+
+		<h3>Completion Progress</h3>
+		<progress value="33" max="100">33%</progress>
+
+	</form>
+
+</body>
+
+</html>
